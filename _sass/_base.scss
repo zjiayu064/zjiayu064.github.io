@@ -118,15 +118,15 @@ blockquote {
 /* links */
 
 a {
-  
-  &:focus {
-    @extend %tab-focus;
-  }
-
+  &:focus,
   &:hover,
   &:active {
-    outline: 0;
+    outline: none;
   }
+}
+
+*:focus {
+  outline: none !important;
 }
 
 /* code */
