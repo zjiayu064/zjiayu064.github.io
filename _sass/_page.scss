@@ -25,9 +25,6 @@
 
   .page__inner-wrap {
     @include full();
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 12px rgba(30, 61, 95, 0.08);
     padding: 1.5em 2em;
 
     .page__content,
