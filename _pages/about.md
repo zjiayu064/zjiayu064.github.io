@@ -120,4 +120,4 @@ I welcome discussions about research collaborations and PhD opportunities.
 - **Phone:** +86 183 1214 4980
 - **Address:** 99 South Jinzhai Rd., Hefei, Anhui, China
 - **GitHub:** [github.com/zjiayu064](https://github.com/zjiayu064)  <!-- [PLACEHOLDER] Update if username differs -->
-- **Google Scholar:** [Your Profile](https://scholar.google.com/)  <!-- [PLACEHOLDER] Replace with actual Google Scholar link -->
+- **Google Scholar:** [Jiayu Zhao](https://scholar.google.com/citations?user=ttJ0zcEAAAAJ)
