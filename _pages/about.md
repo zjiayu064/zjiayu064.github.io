@@ -12,7 +12,7 @@ redirect_from:
 
 ## About
 
-I am a master's student in Microelectronics at the **University of Science and Technology of China (USTC)**, advised by Assoc. Prof. Song Chen. I am currently a CSC-sponsored visiting graduate student at **Nanyang Technological University (NTU)**, hosted by Assoc. Prof. Weichen Liu.
+I am a master's student in Microelectronics at the **University of Science and Technology of China (USTC)**, advised by Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/). I am currently a CSC-sponsored visiting graduate student at **Nanyang Technological University (NTU)**, hosted by Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#about).
 
 My research lies at the intersection of **AI systems** and **electronic design automation (EDA)**. I work on efficient inference and compression for large language models, particularly **Mixture-of-Experts (MoE) LLMs**, and on **structure-aware LLM pipelines** for hardware code generation. I am drawn to problems that pair algorithmic insight with systems-level efficiency.
 
@@ -36,7 +36,7 @@ I am actively seeking **PhD opportunities** in LLM systems, efficient inference 
 
 **University of Science and Technology of China (USTC)**, Anhui, China  
 M.Sc. in Microelectronics · *Sep 2024 – Jun 2027 (expected)*  
-GPA: 3.85 / 4.30 (90.26 / 100) · Ranking: 9 / 126 · Advisor: Assoc. Prof. Song Chen
+GPA: 3.85 / 4.30 (90.26 / 100) · Ranking: 9 / 126 · Advisor: Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/)
 
 **University of Science and Technology of China (USTC)**, Anhui, China  
 B.Sc. in Physics (Minor in Computer Science) · *Sep 2020 – Jun 2024*  
@@ -49,7 +49,7 @@ GPA: 3.50 / 4.30 (85.50 / 100)
 **Nanyang Technological University (NTU)**, Singapore  
 Visiting Graduate Student, College of Computing and Data Science (CCDS) · *Aug 2025 – Jul 2026*  
 CSC-sponsored Joint Master's Training under the State Scholarship Fund  
-Host Supervisor: Assoc. Prof. Weichen Liu
+Host Supervisor: Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#about)
 
 ---
 
