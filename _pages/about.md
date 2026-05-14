@@ -38,13 +38,18 @@ I am actively seeking **PhD opportunities** in LLM systems, efficient inference 
 M.Sc. in Microelectronics · *Sep 2024 – Jun 2027 (expected)*  
 GPA: 3.85 / 4.30 (90.26 / 100) · Ranking: 9 / 126 · Advisor: Assoc. Prof. Song Chen
 
-**Nanyang Technological University (NTU)**, Singapore  
-Visiting Graduate Student, College of Computing and Data Science (CCDS) · *Aug 2025 – Jul 2026*  
-CSC-sponsored Joint Master's Training · Host Supervisor: Assoc. Prof. Weichen Liu
-
 **University of Science and Technology of China (USTC)**, Anhui, China  
 B.Sc. in Physics (Minor in Computer Science) · *Sep 2020 – Jun 2024*  
 GPA: 3.50 / 4.30 (85.50 / 100)
+
+---
+
+## Visiting Experience
+
+**Nanyang Technological University (NTU)**, Singapore  
+Visiting Graduate Student, College of Computing and Data Science (CCDS) · *Aug 2025 – Jul 2026*  
+CSC-sponsored Joint Master's Training under the State Scholarship Fund  
+Host Supervisor: Assoc. Prof. Weichen Liu
 
 ---
 
@@ -114,8 +119,6 @@ Implemented fixed-point quantization for Llama 2, including nonlinear operators 
 ---
 
 ## Contact
-
-I welcome discussions about research collaborations and PhD opportunities.
 
 - **Email:** [jiayz@mail.ustc.edu.cn](mailto:jiayz@mail.ustc.edu.cn)
 - **Phone:** +86 183 1214 4980
