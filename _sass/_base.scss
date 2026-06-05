@@ -5,12 +5,16 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  min-width: $site-min-width;
+  overflow-x: auto;
 }
 
 body {
   margin: 0;
   padding: 0;
   padding-bottom: 0em;
+  min-width: $site-min-width;
+  overflow-x: auto;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
