@@ -16,8 +16,6 @@ I am a master's student in Microelectronics at the [School of Microelectronics](
 
 My research lies at the intersection of **AI systems** and **electronic design automation (EDA)**. I work on efficient inference and compression for large language models, particularly **Mixture-of-Experts (MoE) LLMs**, and on **structure-aware LLM pipelines** for hardware code generation. I am drawn to problems that pair algorithmic insight with systems-level efficiency.
 
-I am actively seeking **PhD opportunities** in LLM systems, efficient inference for sparse LLMs, and EDA-oriented foundation models.
-
 ---
 
 ## Recent News
@@ -63,74 +61,19 @@ Efficient MoE deployment requires preserving expert-specialized capacity while r
 
 ## Education
 
-**University of Science and Technology of China (USTC)**, Anhui, China  
-M.Sc. in Microelectronics · *Sep 2024 – Jun 2027 (expected)*  
-GPA: 3.85 / 4.30 (90.26 / 100) · Ranking: 9 / 126 · Advisor: Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/)
+**University of Science and Technology of China (USTC)**, Anhui, China<br>
+M.Sc. student in Microelectronics, School of Microelectronics · *Sep 2024 – Jun 2027 (expected)*<br>
+Advisor: Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/)
 
-**University of Science and Technology of China (USTC)**, Anhui, China  
-B.Sc. in Physics (Minor in Computer Science) · *Sep 2020 – Jun 2024*  
-GPA: 3.50 / 4.30 (85.50 / 100)
+My master's training focuses on efficient large language model systems and model compression, with current work on mixed-precision quantization and efficient inference for MoE LLMs. I am also involved in LLM-based EDA research, especially structure-aware RTL and Verilog generation.
 
----
-
-## Visiting Experience
-
-**Nanyang Technological University (NTU)**, Singapore  
-Visiting Graduate Student, College of Computing and Data Science (CCDS) · *Aug 2025 – Jul 2026*  
-CSC-sponsored Joint Master's Training under the State Scholarship Fund  
+**Nanyang Technological University (NTU)**, Singapore<br>
+Visiting Graduate Student, College of Computing and Data Science (CCDS) · *Aug 2025 – Jul 2026*<br>
 Host Supervisor: Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#about)
 
----
+I am visiting NTU under the China Scholarship Council (CSC) joint master's training program, working on efficient inference and quantization methods for sparse LLMs.
 
-<span id="publications"></span>
+**University of Science and Technology of China (USTC)**, Anhui, China<br>
+B.Sc. in Physics, Minor in Computer Science · *Sep 2020 – Jun 2024*
 
-## Publications
-
-**Peer-Reviewed**
-
-- Ke Hu, Yudong He, Yuan Li, **Jiayu Zhao**, Song Chen, and Yi Kang.  
-  *EI²Det: Edge-Guided Illumination-Aware Interactive Learning for Visible-Infrared Object Detection.*  
-  **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**, vol. 35, no. 7, pp. 7101–7115, Jul. 2025.  
-  DOI: [10.1109/TCSVT.2025.3539625](https://doi.org/10.1109/TCSVT.2025.3539625)
-
-**Preprints**
-
-- **Jiayu Zhao**, Zihan Teng, Minhao Fan, Tianrui Ma, Wentao Ren, Song Chen, and Weichen Liu.<br>
-  *BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization.*<br>
-  arXiv preprint, 2026.<br>
-  [Paper](https://arxiv.org/abs/2606.00079) · [Code](https://github.com/zjiayu064/BitsMoE)
-
----
-
-<span id="awards"></span>
-
-## Awards & Scholarships
-
-| Award | Year |
-|---|---|
-| State Scholarship Fund Scholarship, China Scholarship Council (CSC) | 2025–2026 |
-| Second-Class Academic Scholarship for Master's Students, USTC | 2025 |
-| First-Class Academic Scholarship for Master's Students, USTC | 2024 |
-| Scholarship for Outstanding Students of USTC (Bronze Award) | 2020–2024 |
-| Endeavour Scholarship | 2021 |
-
----
-
-<span id="skills"></span>
-
-## Skills
-
-- **Programming & Systems:** Python, C/C++, CUDA, Linux, Slurm, Git, LaTeX
-- **LLMs & Model Compression:** PyTorch, Hugging Face Transformers, vLLM, MoE inference, LLM quantization, Gurobi / ILP
-- **EDA & Hardware Design:** Verilog / SystemVerilog, Yosys, RTL design, logic synthesis, digital IC design flow
-- **Performance Profiling:** Nsight Systems, Nsight Compute
-- **Evaluation:** LLM benchmarking, inference efficiency analysis, RTL functional verification
-
----
-
-## Contact
-
-- **Email:** [jiayz@mail.ustc.edu.cn](mailto:jiayz@mail.ustc.edu.cn)
-- **Address:** 99 South Jinzhai Rd., Hefei, Anhui, China
-- **GitHub:** [github.com/zjiayu064](https://github.com/zjiayu064)
-- **Google Scholar:** [Jiayu Zhao](https://scholar.google.com/citations?user=ttJ0zcEAAAAJ)
+During my undergraduate study, I built a foundation in physics, mathematics, and computer science, and gradually shifted my research focus toward AI systems, model compression, and hardware-aware machine learning.

@@ -12,9 +12,19 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.affiliation and author.affiliation_url %}
-      <p class="author__affiliation"><a href="{{ author.affiliation_url }}">{{ author.affiliation }}</a></p>
+      <p class="author__affiliation">
+        <a href="{{ author.affiliation_url }}">
+          {% for line in author.affiliation %}
+            <span>{{ line }}</span>
+          {% endfor %}
+        </a>
+      </p>
     {% elsif author.affiliation %}
-      <p class="author__affiliation">{{ author.affiliation }}</p>
+      <p class="author__affiliation">
+        {% for line in author.affiliation %}
+          <span>{{ line }}</span>
+        {% endfor %}
+      </p>
     {% endif %}
   </div>
 
