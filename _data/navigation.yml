@@ -1,5 +1,5 @@
 main:
   - title: "Home"
-    url: "/"
-  - title: "Publications"
-    url: "/publications/"
+    url: "/home/"
+  - title: "Publication"
+    url: "/publication/"

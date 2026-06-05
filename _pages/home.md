@@ -1,9 +1,11 @@
 ---
-permalink: /
-title: ""
+permalink: /home/
+title: "Home"
 excerpt: ""
+layout: default
 author_profile: true
 redirect_from:
+  - /
   - /about/
   - /about.html
 ---
@@ -49,7 +51,7 @@ My research lies at the intersection of **AI systems** and **electronic design a
 Efficient MoE deployment requires preserving expert-specialized capacity while reducing resident memory and inference overhead. My work studies quantization and allocation strategies that make sparse LLMs practical under strict deployment budgets.
 
 <div class="paper-card">
-  <div class="paper-figure"><img src="images/BitsMoE.png" alt="BitsMoE overview" /></div>
+  <div class="paper-figure"><img src="{{ '/images/BitsMoE.png' | relative_url }}" alt="BitsMoE overview" /></div>
   <div class="paper-text">
     <p><strong>BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization.</strong> arXiv preprint, 2026. (<a href="https://arxiv.org/abs/2606.00079">Paper</a>) (<a href="https://github.com/zjiayu064/BitsMoE">Code</a>)</p>
     <p>Introduces <strong>spectral energy-guided bit allocation</strong> for <strong>MoE LLM quantization</strong>, using activation-aware mixed precision to preserve expert-specific capacity under low-bit memory budgets.</p>

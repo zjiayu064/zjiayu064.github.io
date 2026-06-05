@@ -110,6 +110,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 
