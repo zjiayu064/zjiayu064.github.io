@@ -12,12 +12,12 @@
   animation-delay: 0.35s;
 
   @include breakpoint($large) {
-    width: 80vw;
-    max-width: 80vw;
+    width: 92vw;
+    max-width: 92vw;
   }
 
   @include breakpoint($x-large) {
-    max-width: 80vw;
+    max-width: 92vw;
   }
 }
 

@@ -198,6 +198,7 @@
 
   @include breakpoint($large) {
     display: block;
+    text-align: center;
   }
 
   button {
@@ -270,6 +271,7 @@
 
   li {
     white-space: nowrap;
+    text-align: center;
   }
 
   a {
@@ -299,10 +301,6 @@
 
   .fa-eye {
     margin-right: 3px;
-  }
-
-  @include breakpoint($large) {
-    text-align: left;
   }
 }
 

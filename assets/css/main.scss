@@ -61,7 +61,7 @@
 
     .paper-figure {
         border: 1px solid #dddddd;
-        flex: 0 0 230px;
+        flex: 0 0 345px;
         line-height: 0;
         padding: 4px;
 
@@ -91,39 +91,6 @@
             margin-bottom: 0.65em;
             max-width: 320px;
         }
-    }
-}
-
-.publication-list {
-    .blockcontent {
-        padding-bottom: 0.8em;
-    }
-}
-
-.publication-item {
-    margin-bottom: 1em;
-
-    &:last-child {
-        margin-bottom: 0;
-    }
-
-    p {
-        margin-bottom: 0.35em;
-    }
-}
-
-.publication-label {
-    color: #1e4d8c;
-    font-weight: 700;
-}
-
-.publication-title {
-    font-style: italic;
-}
-
-.publication-links {
-    a {
-        font-weight: 600;
     }
 }
 
