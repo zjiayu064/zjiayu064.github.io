@@ -8,31 +8,37 @@
   margin-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
+  width: $site-content-width;
+  min-width: $site-content-min-width;
+  max-width: $site-content-width;
+  display: flex;
+  align-items: flex-start;
+  gap: $site-layout-gap;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  @include breakpoint($large) {
-    width: 92vw;
-    max-width: 92vw;
-  }
-
-  @include breakpoint($x-large) {
-    max-width: 92vw;
-  }
 }
 
 .page {
+  flex: 1 1 auto;
+  float: none;
+  min-width: 0;
+  width: auto;
+
   @include breakpoint($large) {
-    @include span(9.5 of 12 last);
-    @include prefix(0 of 12);
-    @include suffix(0 of 12);
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
   }
 
   &.page--wide {
+    flex: 1 1 100%;
+
     @include breakpoint($large) {
-      @include span(12 of 12);
-      @include prefix(0 of 12);
-      @include suffix(0 of 12);
+      float: none;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
     }
   }
 

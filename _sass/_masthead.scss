@@ -17,16 +17,10 @@
     @include container;
     @include clearfix;
     padding: .6em 1em;
+    width: $site-content-width;
+    min-width: $site-content-min-width;
+    max-width: $site-content-width;
     font-family: $sans-serif-narrow;
-
-    @include breakpoint($large) {
-      width: 92vw;
-      max-width: 92vw;
-    }
-
-    @include breakpoint($x-large) {
-      max-width: 92vw;
-    }
 
     nav {
       z-index: 10;

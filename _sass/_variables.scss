@@ -117,6 +117,10 @@ $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
 $site-min-width             : $x-large !default;
+$site-content-width         : 95vw !default;
+$site-content-min-width     : 1216px !default;
+$site-layout-gap            : 2rem !default;
+$author-sidebar-width       : 300px !default;
 
 /*
    Grid
