@@ -94,6 +94,39 @@
     }
 }
 
+.publication-list {
+    .blockcontent {
+        padding-bottom: 0.8em;
+    }
+}
+
+.publication-item {
+    margin-bottom: 1em;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-bottom: 0.35em;
+    }
+}
+
+.publication-label {
+    color: #1e4d8c;
+    font-weight: 700;
+}
+
+.publication-title {
+    font-style: italic;
+}
+
+.publication-links {
+    a {
+        font-weight: 600;
+    }
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 

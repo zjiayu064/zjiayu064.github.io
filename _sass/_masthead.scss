@@ -19,8 +19,13 @@
     padding: .6em 1em;
     font-family: $sans-serif-narrow;
 
+    @include breakpoint($large) {
+      width: 80vw;
+      max-width: 80vw;
+    }
+
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: 80vw;
     }
 
     nav {
