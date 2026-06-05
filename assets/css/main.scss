@@ -40,51 +40,58 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.paper-box {
+.infoblock {
+    margin: 1.2em 0 1.3em 0;
+
+    .blockcontent {
+        background: #f8fbff;
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+        padding: 0.8em 1em 0.25em 1em;
+    }
+}
+
+.paper-card {
+    align-items: flex-start;
+    border-bottom: 1px solid #eeeeee;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    gap: 1em;
+    margin: 0.9em 0 1em 0;
+    padding-bottom: 0.9em;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
+    .paper-figure {
+        border: 1px solid #dddddd;
+        flex: 0 0 230px;
+        line-height: 0;
+        padding: 4px;
+
         img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+            display: block;
+            width: 100%;
         }
     }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
 
+    .paper-text {
+        flex: 1;
+
+        p {
+            margin-bottom: 0.45em;
+        }
     }
 
+    .paper-keywords {
+        color: #444444;
+        font-size: 0.95em;
+    }
 
+    @include breakpoint(max-width $medium) {
+        display: block;
+
+        .paper-figure {
+            margin-bottom: 0.65em;
+            max-width: 320px;
+        }
+    }
 }
 
 $scroll_offset : 2em;

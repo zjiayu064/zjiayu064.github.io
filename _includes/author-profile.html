@@ -11,6 +11,11 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.affiliation and author.affiliation_url %}
+      <p class="author__affiliation"><a href="{{ author.affiliation_url }}">{{ author.affiliation }}</a></p>
+    {% elsif author.affiliation %}
+      <p class="author__affiliation">{{ author.affiliation }}</p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -19,9 +24,6 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.address }}</li>
       {% elsif author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
-      {% endif %}
-      {% if author.phone %}
-        <li><a href="tel:{{ author.phone }}"><i class="fas fa-fw fa-phone" aria-hidden="true"></i> {{ author.phone }}</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}</a></li>

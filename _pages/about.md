@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-<span id="about"></span>
+<span id="biography"></span>
 
-## About
+## Biography
 
-I am a master's student in Microelectronics at the **University of Science and Technology of China (USTC)**, advised by Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/). I am currently a CSC-sponsored visiting graduate student at **Nanyang Technological University (NTU)**, hosted by Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#about).
+I am a master's student in Microelectronics at the [School of Microelectronics](http://sme.ustc.edu.cn/), **University of Science and Technology of China (USTC)**, advised by Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/). I am currently a CSC-sponsored visiting graduate student at **Nanyang Technological University (NTU)**, hosted by Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#about).
 
 My research lies at the intersection of **AI systems** and **electronic design automation (EDA)**. I work on efficient inference and compression for large language models, particularly **Mixture-of-Experts (MoE) LLMs**, and on **structure-aware LLM pipelines** for hardware code generation. I am drawn to problems that pair algorithmic insight with systems-level efficiency.
 
@@ -20,15 +20,44 @@ I am actively seeking **PhD opportunities** in LLM systems, efficient inference 
 
 ---
 
+## Recent News
+
+<div class="infoblock">
+<div class="blockcontent">
+<ul>
+<li><p>May/2026: <strong>BitsMoE</strong> is available on arXiv, focusing on mixed-precision quantization for MoE LLMs.</p></li>
+</ul>
+</div>
+</div>
+
+---
+
 <span id="research"></span>
 
 ## Research Interests
 
-- **Compression and adaptive quantization for MoE LLMs** — mixed-precision allocation, spectral decomposition, activation-aware bit budgeting
-- **Efficient inference for sparse LLMs** — throughput and latency optimization, expert-aware serving, KV-cache and memory efficiency
-- **LLMs for EDA and hardware design automation** — design understanding, automated RTL workflows, hardware-aware generation
-- **Structure-aware LLMs for RTL / Verilog generation** — retrieval-augmented generation, graph-based hardware representations, multimodal soft prompting
-- **LLM agents for EDA** — tool-integrated reasoning with synthesis and verification feedback
+- **MoE LLMs efficient inference:** mixed-precision quantization, expert-aware compression, memory-efficient serving
+- **Compression and adaptive quantization for MoE LLMs:** spectral decomposition, activation-aware bit budgeting, ultra-low-bit deployment
+- **LLMs for EDA and hardware design automation:** design understanding, automated RTL workflows, hardware-aware generation
+- **Structure-aware LLMs for RTL / Verilog generation:** retrieval-augmented generation, graph-based hardware representations, multimodal soft prompting
+- **LLM agents for EDA:** tool-integrated reasoning with synthesis and verification feedback
+
+---
+
+## Selected Research Directions
+
+### MoE LLMs Efficient Inference
+
+Efficient MoE deployment requires preserving expert-specialized capacity while reducing resident memory and inference overhead. My work studies quantization and allocation strategies that make sparse LLMs practical under strict deployment budgets.
+
+<div class="paper-card">
+  <div class="paper-figure"><img src="images/BitsMoE.png" alt="BitsMoE overview" /></div>
+  <div class="paper-text">
+    <p><strong>BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization.</strong> arXiv preprint, 2026. (<a href="https://arxiv.org/abs/2606.00079">Paper</a>) (<a href="https://github.com/zjiayu064/BitsMoE">Code</a>)</p>
+    <p>Introduces <strong>spectral energy-guided bit allocation</strong> for <strong>MoE LLM quantization</strong>, using activation-aware mixed precision to preserve expert-specific capacity under low-bit memory budgets.</p>
+    <p class="paper-keywords">Keywords: MoE LLMs; mixed-precision quantization; spectral energy; efficient inference.</p>
+  </div>
+</div>
 
 ---
 
@@ -53,30 +82,6 @@ Host Supervisor: Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#abo
 
 ---
 
-## Selected Research
-
-### Efficient Quantization for MoE LLMs
-*Aug 2025 – Apr 2026 · NTU & USTC · First Author*
-
-Research on mixed-precision quantization for MoE LLMs, targeting strict memory budgets in practical deployment. Explored adaptive bit allocation strategies that exploit cross-expert weight redundancy, with substantial gains in decoding throughput and time-to-first-token under low-bit settings. *(Manuscript under review; details withheld for double-blind review.)*
-
-### Structure-Aware LLM-Based Verilog / RTL Generation
-*Apr 2025 – Nov 2025 · USTC · First Author*
-
-Research on retrieval-augmented Verilog code generation that integrates hardware-structural information into LLM-based RTL pipelines, combining graph-based design representations with multimodal soft prompting to improve functional correctness on standard benchmarks. *(Manuscript under review; details withheld for double-blind review.)*
-
-### EI²Det: Visible-Infrared Object Detection
-*Jul 2024 – Sep 2024 · USTC · Research Contributor*
-
-Contributed to the experimental evaluation of a visible-infrared object detection framework targeting robust perception under challenging illumination. Implemented and benchmarked YOLOv5, YOLOv7, YOLOv10, and YOLOX baselines and helped organize the experimental results for the final journal submission. *(Published in IEEE TCSVT, 2025.)*
-
-### Low-Bit Quantization of Llama 2 for Resource-Constrained Deployment
-*Jul 2024 – Dec 2024 · USTC*
-
-Implemented fixed-point quantization for Llama 2, including nonlinear operators such as softmax and exponential functions, for efficient deployment on resource-constrained hardware. Extended the pipeline to weight-activation quantization while maintaining comparable WikiText-2 perplexity, with perplexity rising only from 5.47 to 5.50 under W8A8 and 5.64 under W6A6.
-
----
-
 <span id="publications"></span>
 
 ## Publications
@@ -88,7 +93,12 @@ Implemented fixed-point quantization for Llama 2, including nonlinear operators 
   **IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)**, vol. 35, no. 7, pp. 7101–7115, Jul. 2025.  
   DOI: [10.1109/TCSVT.2025.3539625](https://doi.org/10.1109/TCSVT.2025.3539625)
 
-*Two first-author manuscripts are currently under review. Details withheld for double-blind review.*
+**Preprints**
+
+- **Jiayu Zhao**, Zihan Teng, Minhao Fan, Tianrui Ma, Wentao Ren, Song Chen, and Weichen Liu.<br>
+  *BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization.*<br>
+  arXiv preprint, 2026.<br>
+  [Paper](https://arxiv.org/abs/2606.00079) · [Code](https://github.com/zjiayu064/BitsMoE)
 
 ---
 
@@ -121,7 +131,6 @@ Implemented fixed-point quantization for Llama 2, including nonlinear operators 
 ## Contact
 
 - **Email:** [jiayz@mail.ustc.edu.cn](mailto:jiayz@mail.ustc.edu.cn)
-- **Phone:** +86 183 1214 4980
 - **Address:** 99 South Jinzhai Rd., Hefei, Anhui, China
 - **GitHub:** [github.com/zjiayu064](https://github.com/zjiayu064)
 - **Google Scholar:** [Jiayu Zhao](https://scholar.google.com/citations?user=ttJ0zcEAAAAJ)

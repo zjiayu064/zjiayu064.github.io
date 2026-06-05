@@ -147,7 +147,27 @@
 
   @include breakpoint($large) {
     margin-top: 10px;
+    margin-bottom: 8px;
+  }
+}
+
+.author__affiliation {
+  margin: 0;
+  font-size: $type-size-6;
+  line-height: 1.35;
+
+  @include breakpoint($large) {
     margin-bottom: 20px;
+  }
+
+  a {
+    color: #1e4d8c;
+    text-decoration: none;
+
+    &:hover {
+      color: #163a6b;
+      text-decoration: underline;
+    }
   }
 }
 
