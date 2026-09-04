@@ -1,0 +1,22 @@
+@media print {
+  html,
+  body {
+    min-width: 0;
+    background: #ffffff;
+  }
+
+  .site-shell {
+    display: block;
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .site-rail {
+    display: none;
+  }
+
+  .site-main {
+    padding: 0;
+  }
+}

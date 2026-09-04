@@ -3,7 +3,7 @@ permalink: /home/
 title: "Home"
 excerpt: ""
 layout: default
-author_profile: true
+show_profile: true
 redirect_from:
   - /
   - /about/
@@ -14,9 +14,9 @@ redirect_from:
 
 ## Biography
 
-I am a master's student in Microelectronics at the [School of Microelectronics](http://sme.ustc.edu.cn/), **University of Science and Technology of China (USTC)**, advised by Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/). I am currently a CSC-sponsored visiting graduate student at **Nanyang Technological University (NTU)**, hosted by Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#about).
+I am currently a third-year master's student at the [School of Microelectronics](http://sme.ustc.edu.cn/), **[University of Science and Technology of China (USTC)](https://en.ustc.edu.cn/)**, supervised by Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/) since Sep. 2024. Prior to that, I obtained my B.S. degree in Physics from the [School of Physical Sciences](https://en.physics.ustc.edu.cn/) at [USTC](https://en.ustc.edu.cn/) in 2024.
 
-My research lies at the intersection of **AI systems** and **electronic design automation (EDA)**. I work on efficient inference and compression for large language models, particularly **Mixture-of-Experts (MoE) LLMs**, and on **structure-aware LLM pipelines** for hardware code generation. I am drawn to problems that pair algorithmic insight with systems-level efficiency.
+My research lies at the intersection of **AI systems** and **electronic design automation (EDA)**. I work on efficient inference and compression for large language models, particularly **Mixture-of-Experts (MoE) LLMs**, and on **structure-aware LLM pipelines** for hardware code generation.
 
 ---
 
@@ -25,6 +25,7 @@ My research lies at the intersection of **AI systems** and **electronic design a
 <div class="infoblock">
 <div class="blockcontent">
 <ul>
+<li><p>Sep/2026: <strong>VeriGRAG</strong> is accepted by <strong>ASPDAC 2027</strong>.</p></li>
 <li><p>May/2026: <strong>BitsMoE</strong> is available on arXiv, focusing on mixed-precision quantization for MoE LLMs.</p></li>
 </ul>
 </div>
@@ -32,15 +33,12 @@ My research lies at the intersection of **AI systems** and **electronic design a
 
 ---
 
-<span id="research"></span>
-
 ## Research Interests
 
-- **MoE LLMs efficient inference:** mixed-precision quantization, expert-aware compression, memory-efficient serving
-- **Compression and adaptive quantization for MoE LLMs:** spectral decomposition, activation-aware bit budgeting, ultra-low-bit deployment
-- **LLMs for EDA and hardware design automation:** design understanding, automated RTL workflows, hardware-aware generation
-- **Structure-aware LLMs for RTL / Verilog generation:** retrieval-augmented generation, graph-based hardware representations, multimodal soft prompting
-- **LLM agents for EDA:** tool-integrated reasoning with synthesis and verification feedback
+My research interests include:
+
+- **Efficient MoE LLMs**: quantization, model compression, and efficient inference.
+- **LLMs for RTL Generation and Verification**: structure-aware code generation and verification-aware reasoning.
 
 ---
 
@@ -63,19 +61,16 @@ Efficient MoE deployment requires preserving expert-specialized capacity while r
 
 ## Education
 
-**University of Science and Technology of China (USTC)**, Anhui, China<br>
-M.Sc. student in Microelectronics, School of Microelectronics · *Sep 2024 – Jun 2027 (expected)*<br>
-Advisor: Assoc. Prof. [Song Chen](http://staff.ustc.edu.cn/~songch/)
+- M.Sc., [School of Microelectronics](http://sme.ustc.edu.cn/), [University of Science and Technology of China (USTC)](https://en.ustc.edu.cn/), Sep/2024 - Jun/2027 (expected)
+- B.Sc. in Physics, Minor in Computer Science, [School of Physical Sciences](https://en.physics.ustc.edu.cn/), [University of Science and Technology of China (USTC)](https://en.ustc.edu.cn/), Sep/2020 - Jun/2024
 
-My master's training focuses on efficient large language model systems and model compression, with current work on mixed-precision quantization and efficient inference for MoE LLMs. I am also involved in LLM-based EDA research, especially structure-aware RTL and Verilog generation.
+---
 
-**Nanyang Technological University (NTU)**, Singapore<br>
-Visiting Graduate Student, College of Computing and Data Science (CCDS) · *Aug 2025 – Jul 2026*<br>
-Host Supervisor: Assoc. Prof. [Weichen Liu](https://personal.ntu.edu.sg/liu/#about)
+## Experience
 
-I am visiting NTU under the China Scholarship Council (CSC) joint master's training program, working on efficient inference and quantization methods for sparse LLMs.
+[Parallel and Distributed Computing Lab (PDCL)](https://www.ntu.edu.sg/pdcl), [SCSE](https://www.ntu.edu.sg/computing/home), [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), Singapore
 
-**University of Science and Technology of China (USTC)**, Anhui, China<br>
-B.Sc. in Physics, Minor in Computer Science · *Sep 2020 – Jun 2024*
+- Visiting Master, Aug. 2025 - Jul. 2026
+- Supervised by [Prof. Weichen Liu](https://personal.ntu.edu.sg/liu/)
 
-During my undergraduate study, I built a foundation in physics, mathematics, and computer science, and gradually shifted my research focus toward AI systems, model compression, and hardware-aware machine learning.
+{% include visitor-count.html %}

@@ -10,24 +10,30 @@ layout: compress
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page{% unless page.author_profile or layout.author_profile or page.sidebar %} page--wide{% endunless %}" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
+    <div class="site-shell">
+      <aside class="site-rail">
+        <div class="site-rail__inner">
+          {% include site-navigation.html %}
+        </div>
+      </aside>
+
+      <main id="main" class="site-main" role="main">
+        <article class="content-page" itemscope itemtype="https://schema.org/CreativeWork">
+          {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+
+          {% if page.show_profile %}
+            {% include profile-intro.html %}
+          {% endif %}
+
+          <section class="page-content" itemprop="text">
             {{ content }}
           </section>
-        </div>
-      </article>
+        </article>
+      </main>
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>

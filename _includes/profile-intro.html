@@ -1,0 +1,25 @@
+{% assign profile = site.data.profile %}
+
+<header class="profile-intro" itemscope itemtype="https://schema.org/Person">
+  <img
+    class="profile-intro__photo"
+    src="{{ profile.avatar | relative_url }}"
+    alt="Portrait of {{ profile.name }}"
+    itemprop="image"
+  >
+
+  <div class="profile-intro__details">
+    <h1 itemprop="name">{{ profile.name }}</h1>
+    <p class="profile-intro__position">
+      <strong>{{ profile.role }}</strong><br>
+      <a href="{{ profile.school_url }}">{{ profile.school }}</a><br>
+      <a href="{{ profile.university_url }}">{{ profile.university }}</a>
+    </p>
+
+    <p class="profile-intro__email">
+      Email: <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+    </p>
+
+    {% include profile-icons.html %}
+  </div>
+</header>

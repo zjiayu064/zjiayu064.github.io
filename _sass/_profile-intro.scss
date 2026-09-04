@@ -1,0 +1,36 @@
+.profile-intro {
+  display: grid;
+  grid-template-columns: var(--photo-width) minmax(0, 1fr);
+  align-items: start;
+  gap: 32px;
+  margin-bottom: 34px;
+}
+
+.profile-intro__photo {
+  width: var(--photo-width);
+  height: var(--photo-height);
+  object-fit: cover;
+  object-position: center top;
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(32, 39, 51, 0.16);
+}
+
+.profile-intro__details {
+  min-width: 0;
+}
+
+.profile-intro h1 {
+  margin: 2px 0 12px;
+  color: var(--accent);
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.profile-intro__position,
+.profile-intro__email {
+  margin: 0 0 12px;
+}
+
+.profile-intro__email {
+  color: var(--muted);
+}

@@ -1,0 +1,18 @@
+{% assign profile = site.data.profile %}
+
+<div class="site-nav">
+  <a class="site-nav__name" href="{{ '/home/' | relative_url }}">{{ profile.name }}</a>
+
+  <nav aria-label="Main navigation">
+    <ul class="site-nav__links">
+      {% for link in site.data.navigation.main %}
+        <li>
+          <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="is-current" aria-current="page"{% endif %}>{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <p class="site-nav__section-title">Profiles</p>
+    {% include profile-icons.html %}
+  </nav>
+</div>

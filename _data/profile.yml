@@ -1,0 +1,12 @@
+# Personal information shown in the profile block and left navigation.
+# Edit this file when your title, affiliation, or contact details change.
+name: "Jiayu Zhao"
+avatar: "/images/avatar.jpg"
+role: "M.Sc. Student in Microelectronics"
+school: "School of Microelectronics,"
+school_url: "http://sme.ustc.edu.cn/"
+university: "University of Science and Technology of China (USTC)"
+university_url: "https://en.ustc.edu.cn/"
+email: "jiayz@mail.ustc.edu.cn"
+googlescholar: "https://scholar.google.com/citations?user=ttJ0zcEAAAAJ"
+github: "https://github.com/zjiayu064"
