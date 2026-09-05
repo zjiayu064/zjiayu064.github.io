@@ -3,3 +3,4 @@ push.sh
 .DS_Store
 cv.tex
 .codex
+.sass-cache/
