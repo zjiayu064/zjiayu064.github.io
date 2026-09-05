@@ -1,8 +1,16 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("a[href]").forEach(function (link) {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
+      var destination = new URL(link.getAttribute("href"), window.location.href);
+      var isInternalLink = destination.origin === window.location.origin;
+
+      if (isInternalLink) {
+        link.removeAttribute("target");
+        link.removeAttribute("rel");
+      } else {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      }
     });
   });
 </script>
