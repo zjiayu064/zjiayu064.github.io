@@ -17,7 +17,7 @@ redirect_from:
 <div class="infoblock">
 <div class="blockcontent">
 <ul>
-<li><p><strong>[P1]</strong> <strong>Jiayu Zhao</strong>, Zihan Teng, Minhao Fan, Tianrui Ma, Wentao Ren, Song Chen, and Weichen Liu, "BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization", arXiv preprint, 2026. (<a href="https://arxiv.org/abs/2606.00079">paper</a>) (<a href="https://github.com/zjiayu064/BitsMoE">code</a>)</p></li>
+<li><p><strong>[P1]</strong> <strong>Jiayu Zhao</strong>, Zihan Teng, Minhao Fan, Tianrui Ma, Wentao Ren, Song Chen, and Weichen Liu, "BitsMoE: Cost-Aware Bit Allocation in Spectral Space for MoE LLM Quantization", arXiv preprint, 2026. (<a href="https://arxiv.org/abs/2606.00079">paper</a>) (<a href="https://github.com/zjiayu064/BitsMoE">code</a>)</p></li>
 </ul>
 </div>
 </div>

@@ -51,9 +51,9 @@ Efficient MoE deployment requires preserving expert-specialized capacity while r
 <div class="paper-card">
   <div class="paper-figure"><img src="{{ '/images/BitsMoE.png' | relative_url }}" alt="BitsMoE overview" /></div>
   <div class="paper-text">
-    <p><strong>BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization.</strong> arXiv preprint, 2026. (<a href="https://arxiv.org/abs/2606.00079">Paper</a>) (<a href="https://github.com/zjiayu064/BitsMoE">Code</a>)</p>
-    <p>Introduces <strong>spectral energy-guided bit allocation</strong> for <strong>MoE LLM quantization</strong>, using activation-aware mixed precision to preserve expert-specific capacity under low-bit memory budgets.</p>
-    <p class="paper-keywords">Keywords: MoE LLMs; mixed-precision quantization; spectral energy; efficient inference.</p>
+    <p><strong>BitsMoE: Cost-Aware Bit Allocation in Spectral Space for MoE LLM Quantization.</strong> arXiv preprint, 2026. (<a href="https://arxiv.org/abs/2606.00079">Paper</a>) (<a href="https://github.com/zjiayu064/BitsMoE">Code</a>)</p>
+    <p>Combines <strong>shared-basis spectral decomposition</strong> with <strong>factorized quantization cost modeling</strong> to allocate bits across expert-specific spectral components under a fixed memory budget, enabling accurate low-bit MoE quantization and efficient GPU inference.</p>
+    <p class="paper-keywords">Keywords: MoE LLMs; mixed-precision quantization; spectral decomposition; cost-aware bit allocation; efficient inference.</p>
   </div>
 </div>
 
